@@ -384,6 +384,68 @@ footer ul a:hover {
     padding: 0.5rem 1rem;
     
 }
+/* ======================== SINGLEPOST ======================= */
+.singlepost {
+    margin: 6rem 0 2rem;
+}
+
+.singlepost__container {
+    width: var(--form-width);
+    background: var(--color-gray-900);
+    padding: 1rem 2rem 2rem;
+}
+
+.singlepost__thumbnail {
+    margin: 1.5rem 0 1rem;
+}
+.singlepost__container p {
+    margin-top: 1rem;
+    line-height: 1.7;
+}
+
+
+/* ======================== CATEGORY POST ======================= */
+.category__title {
+    height: 15rem;
+    margin-top: 4.5rem;
+    background: var(--color-gray-900);
+    display: grid;
+    place-items: center;
+}
+
+/* ======================== EMPTY PAGE ======================= */
+.empty__page {
+    height: 70vh;
+    margin-top: 4.5rem;
+    
+    display: grid;
+    place-items: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -513,6 +575,7 @@ footer ul a:hover {
         width: 60%;
     }
 
+   
 }
 
 
@@ -552,5 +615,12 @@ footer ul a:hover {
     .search__bar-container {
         width: var(--container-width-md);
     }
+
+     /* ======================== SINGLEPOST ======================= */
+    .singlepost__container {
+        background: transparent;
+        padding: 0;
+    }
+
 
 }
